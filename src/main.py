@@ -8,11 +8,8 @@ from scrapy.crawler import CrawlerProcess
 class T2Educacao(Spider):
     name = "t2-educacao"
 
-    headers = {
-        "access-token": "lBmxWZcI49Zx9JXeGqCrrw",
-        "client": "E3Ccb-4LvdWUcjrziIm4QQ",
-        "uid": "juviitor@outlook.com",
-    }
+    # Api quebrou :)
+    headers = {}
 
     def start_requests(self) -> Iterable[Request]:
 
